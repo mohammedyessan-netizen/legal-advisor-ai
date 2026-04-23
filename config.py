@@ -1,4 +1,7 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv() # تحميل المتغيرات السرية من ملف .env
 
 # --- Project Config ---
 # It's recommended to set these as environment variables
@@ -26,7 +29,7 @@ DB_NAME = os.environ.get("DB_NAME", "legal_vault_db")
 INSTANCE_CONNECTION_NAME = f"{PROJECT_ID}:{REGION}:{INSTANCE_NAME}"
 
 # --- Generative AI Config ---
-API_KEY = os.environ.get("API_KEY", "AIzaSyBc92hGcN-OAyUEMe9w8ZWA4uAntjMIofM") # Fallback for convenience, but using env var is strongly recommended
+API_KEY = os.environ.get("API_KEY", "")
 
 if DB_PASS == "Mm1323145@@" or (API_KEY and "AIzaSy" in API_KEY):
     print("⚠️ تحذير: يتم استخدام إعدادات افتراضية. يوصى بشدة بتعيين متغيرات البيئة (environment variables) للأمان والضبط الصحيح.")

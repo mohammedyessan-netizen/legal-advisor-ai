@@ -135,3 +135,97 @@ git push -u origin main
 
 2026-04-23 09:43:05.928 [info] Send text to terminal: git push -u origin main
 
+2026-04-23 09:44:52.787 [info] Send text to terminal: git remote set-url origin https://github.com/mohammedyessan-netizen/legal-advisor-ai.git
+
+2026-04-23 09:45:04.941 [info] Send text to terminal: git push -u origin main
+
+2026-04-23 09:47:17.389 [info] Send text to terminal: git config --global user.name "Mohammed Yessan"
+git config --global user.email "your-email@example.com"
+
+2026-04-23 09:47:21.821 [info] Send text to terminal: git commit -m "النسخة الأولى من المستشار القانوني"
+
+2026-04-23 09:48:11.166 [info] Send text to terminal: git branch -M main
+git push -u origin main
+
+2026-04-23 09:59:03.020 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /home/user/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py /home/user/requirements.txt
+2026-04-23 09:59:03.020 [info] > /bin/python ~/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py ~/requirements.txt
+2026-04-23 09:59:23.143 [info] Send text to terminal: pip install streamlit
+
+2026-04-23 10:00:52.361 [info] Send text to terminal: python3 -m venv venv
+
+2026-04-23 10:00:55.674 [info] Send text to terminal: source venv/bin/activate
+
+2026-04-23 10:06:31.594 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /home/user/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py /home/user/requirements.txt
+2026-04-23 10:06:31.594 [info] > /bin/python ~/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py ~/requirements.txt
+2026-04-23 10:06:37.570 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /home/user/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py /home/user/requirements.txt
+2026-04-23 10:06:37.570 [info] > /bin/python ~/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py ~/requirements.txt
+2026-04-23 10:06:49.399 [info] Send text to terminal: pip install -r requirements.txt
+
+2026-04-23 10:09:10.420 [info] Send text to terminal: streamlit run app.py
+
+2026-04-23 10:13:35.355 [info] Send text to terminal: streamlit run app.py --server.address=0.0.0.0
+
+2026-04-23 10:18:58.567 [info] Send text to terminal: streamlit run app.py --server.enableCORS=false --server.enableXsrfProtection=false --server.address=0.0.0.0
+
+2026-04-23 10:35:50.113 [info] Send text to terminal: streamlit run app.py
+

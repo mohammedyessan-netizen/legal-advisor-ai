@@ -1027,3 +1027,28 @@ git remote add origin https://github.com/mohammedyessan-netizen/legal-advisor-ai
 git push -u origin main
 git remote set-url origin git@github.com:mohammedyessan-netizen/legal-advisor-ai.git
 git push -u origin main
+git add .
+git commit -m "النسخة الأولى من المستشار القانوني"
+git remote set-url origin https://github.com/mohammedyessan-netizen/legal-advisor-ai.git
+git push -u origin main
+git config --global user.name "Mohammed Yessan"
+git config --global user.email "your-email@example.com"
+git commit -m "النسخة الأولى من المستشار القانوني"
+git branch -M main
+git push -u origin main
+git rm -r --cached .cache/
+git rm -r --cached .local/
+git rm -r --cached .config/
+git commit --amend -m "النسخة الأولى بدون الملفات المؤقتة"
+git push -u origin main
+pip install streamlit
+python3 -m venv venv
+source venv/bin/activate
+sudo apt update && sudo apt install python3-venv -y
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+streamlit run app.py
+streamlit run app.py --server.address=0.0.0.0
+streamlit run app.py --server.enableCORS=false --server.enableXsrfProtection=false --server.address=0.0.0.0
+streamlit run app.py
