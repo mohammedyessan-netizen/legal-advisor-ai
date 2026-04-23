@@ -1,0 +1,161 @@
+2026-04-23 00:58:32.223 [info] Extension host with pid 616 started
+2026-04-23 00:58:32.598 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-04-23 00:58:32.600 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-04-23 00:58:32.936 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-04-23 00:58:33.189 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-04-23 00:58:33.189 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-04-23 00:58:33.547 [info] Eager extensions activated
+2026-04-23 00:58:33.547 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-04-23 00:58:33.548 [info] ExtensionService#_doActivateExtension google.cloud-workstations, startup: false, activationEvent: 'onStartupFinished'
+2026-04-23 00:58:33.549 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2026-04-23 00:58:33.549 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished'
+2026-04-23 00:58:33.550 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-04-23 00:58:36.031 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2026-04-23 00:58:39.161 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'api', root cause: googlecloudtools.cloudcode
+2026-04-23 00:58:39.797 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2026-04-23 01:01:27.013 [error] Error: invalid_grant
+    at _request (/opt/code-oss/extensions/googlecloudtools.cloudcode/dist/extension.js:14:1000613)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at m.getTokenAsync (/opt/code-oss/extensions/googlecloudtools.cloudcode/dist/extension.js:14:964244)
+    at t.OAuthProvider.processAuthToken (/opt/code-oss/extensions/googlecloudtools.cloudcode/dist/extension.js:14:13332817)
+    at t.OAuthProvider.processAuthTokenWithRetry (/opt/code-oss/extensions/googlecloudtools.cloudcode/dist/extension.js:14:13336988)
+    at /opt/code-oss/extensions/googlecloudtools.cloudcode/dist/extension.js:14:13336518
+    at Object.handleInput (/opt/code-oss/extensions/googlecloudtools.cloudcode/dist/extension.js:14:13310360) cloudcode.statusbar.projectselector.signin {"value":"googlecloudtools.cloudcode","_lower":"googlecloudtools.cloudcode"}
+2026-04-23 01:03:37.759 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-04-23 01:03:37.759 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-04-23 01:03:37.760 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-04-23 01:12:22.430 [error] Error: Login cancelled
+    at ef.value (/opt/code-oss/extensions/google.geminicodeassist/dist/webpack:/common/packages/auth/callback_oob.ts:99:16)
+    at I.C (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+    at I.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+    at tf.cancel (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:5263)
+    at Ke.cancel (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:5674)
+    at FA.$acceptProgressCanceled (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:118:12632)
+    at LE.S (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:136151)
+    at LE.Q (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:135931)
+    at LE.M (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:135020)
+    at LE.L (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:134125)
+    at ef.value (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:132922)
+    at I.C (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+    at I.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+    at Jo.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:9471)
+    at ef.value (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:405:9337)
+    at I.C (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+    at I.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+    at Jo.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:9471)
+    at b0.A (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:12585)
+    at ef.value (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:11006)
+    at I.C (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+    at I.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+    at bk.acceptChunk (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:7954)
+    at ef.value (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:7240)
+    at I.C (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+    at I.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+    at WF.w (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:21782)
+    at WF.acceptFrame (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:21588)
+    at HF.n (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:20116)
+    at file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:17348
+    at Socket.t (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:15264)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23) geminicodeassist.signin {"value":"google.geminicodeassist","_lower":"google.geminicodeassist"}
+2026-04-23 01:21:17.596 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-04-23 01:26:56.340 [error] NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/database.py'
+    at Function.e (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:116:18261)
+    at Object.writeFile (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:116:16913)
+    at document (/opt/code-oss/extensions/google.geminicodeassist/dist/webpack:/src/ai-companion/vscode_file_helper.ts:203:5)
+    at V.isDelete [as openFileAndReplaceItsContent] (/opt/code-oss/extensions/google.geminicodeassist/dist/webpack:/src/ai-companion/chat/chat_action_processor.ts:1390:9)
+    at V.ACCEPT_CODE_BLOCK [as handleCodeActionClickedAcceptCodeBlock] (/opt/code-oss/extensions/google.geminicodeassist/dist/webpack:/src/ai-companion/chat/chat_action_processor.ts:1261:26)
+    at V.response [as codeActionClickedAction] (/opt/code-oss/extensions/google.geminicodeassist/dist/webpack:/src/ai-companion/chat/chat_action_processor.ts:1064:39)
+    at V.processAction (/opt/code-oss/extensions/google.geminicodeassist/dist/webpack:/common/packages/angular-panel/base_action_processor.ts:32:11)
+2026-04-23 01:27:11.057 [error] NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/database.py'
+    at Function.e (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:116:18261)
+    at Object.writeFile (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:116:16913)
+    at document (/opt/code-oss/extensions/google.geminicodeassist/dist/webpack:/src/ai-companion/vscode_file_helper.ts:203:5)
+    at V.isDelete [as openFileAndReplaceItsContent] (/opt/code-oss/extensions/google.geminicodeassist/dist/webpack:/src/ai-companion/chat/chat_action_processor.ts:1390:9)
+    at V.ACCEPT_CODE_BLOCK [as handleCodeActionClickedAcceptCodeBlock] (/opt/code-oss/extensions/google.geminicodeassist/dist/webpack:/src/ai-companion/chat/chat_action_processor.ts:1261:26)
+    at V.response [as codeActionClickedAction] (/opt/code-oss/extensions/google.geminicodeassist/dist/webpack:/src/ai-companion/chat/chat_action_processor.ts:1064:39)
+    at V.processAction (/opt/code-oss/extensions/google.geminicodeassist/dist/webpack:/common/packages/angular-panel/base_action_processor.ts:32:11)
+2026-04-23 01:28:23.673 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2026-04-23 01:28:24.220 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-04-23 01:28:26.072 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-04-23 01:30:02.667 [error] Error: Python Environment Tools (PET) failed after 3 restart attempts. Please reload the window or check the output channel for details. To debug, run "Python Environments: Run Python Environment Tool (PET) in Terminal" from the Command Palette.
+    at S.ensureProcessRunning (/home/user/.codeoss-cloudworkstations/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535872)
+    at S.doRefresh (/home/user/.codeoss-cloudworkstations/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:540575)
+    at c.workerFunc (/home/user/.codeoss-cloudworkstations/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:535168)
+    at o.workFunc (/home/user/.codeoss-cloudworkstations/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:287619)
+    at o.start (/home/user/.codeoss-cloudworkstations/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:286434)
+2026-04-23 02:13:44.070 [error] ExtensionError: Error in extension google.geminicodeassist: FAILED to handle event
+    at ef.value (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:213:103024)
+    at I.C (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+    at I.D (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2398)
+    at I.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2615)
+    at ZZ.$acceptModelChanged (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:144:126373)
+    at LE.S (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:136151)
+    at LE.Q (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:135931)
+    at LE.M (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:135020)
+    at LE.L (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:134125)
+    at ef.value (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:132922)
+    at I.C (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+    at I.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+    at Jo.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:9471)
+    at ef.value (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:405:9337)
+    at I.C (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+    at I.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+    at Jo.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:9471)
+    at b0.A (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:12585)
+    at ef.value (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:11006)
+    at I.C (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+    at I.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+    at bk.acceptChunk (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:7954)
+    at ef.value (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:7240)
+    at I.C (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+    at I.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+    at WF.w (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:21782)
+    at WF.acceptFrame (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:21588)
+    at HF.n (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:20116)
+    at file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:17348
+    at Socket.t (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:15264)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-04-23 02:40:14.674 [error] ExtensionError: Error in extension google.geminicodeassist: FAILED to handle event
+    at ef.value (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:213:103024)
+    at I.C (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+    at I.D (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2398)
+    at I.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2615)
+    at ZZ.$acceptModelChanged (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:144:126373)
+    at LE.S (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:136151)
+    at LE.Q (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:135931)
+    at LE.M (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:135020)
+    at LE.L (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:134125)
+    at ef.value (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:132922)
+    at I.C (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+    at I.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+    at Jo.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:9471)
+    at ef.value (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:405:9337)
+    at I.C (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+    at I.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+    at Jo.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:9471)
+    at b0.A (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:12585)
+    at ef.value (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:11006)
+    at I.C (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+    at I.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+    at bk.acceptChunk (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:7954)
+    at ef.value (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:7240)
+    at I.C (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+    at I.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+    at WF.w (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:21782)
+    at WF.acceptFrame (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:21588)
+    at HF.n (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:20116)
+    at file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:17348
+    at Socket.t (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:29:15264)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)

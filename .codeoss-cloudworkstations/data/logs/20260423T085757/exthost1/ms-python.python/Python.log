@@ -1,0 +1,137 @@
+2026-04-23 08:58:35.614 [info] Starting Environment refresh
+2026-04-23 08:58:35.615 [info] Searching for interpreters in posix paths locator
+2026-04-23 08:58:35.626 [info] Searching for pyenv environments
+2026-04-23 08:58:35.626 [info] Searching for conda environments
+2026-04-23 08:58:35.627 [info] Searching for global virtual environments
+2026-04-23 08:58:35.627 [info] Searching for custom virtual environments
+2026-04-23 08:58:35.731 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-04-23 08:58:35.731 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-04-23 08:58:35.732 [info] pyenv is not installed
+2026-04-23 08:58:35.732 [info] Finished searching for pyenv environments: 116 milliseconds
+2026-04-23 08:58:35.734 [info] Finished searching for custom virtual envs: 116 milliseconds
+2026-04-23 08:58:35.770 [info] > conda info --json
+2026-04-23 08:58:35.783 [info] Finished searching for global virtual envs: 165 milliseconds
+2026-04-23 08:58:36.099 [info] Found: /bin/python --> /usr/bin/python3.12
+2026-04-23 08:58:36.101 [info] Found: /bin/python3 --> /bin/python3.12
+2026-04-23 08:58:36.101 [info] Found: /bin/python3.12 --> /bin/python3.12
+2026-04-23 08:58:36.140 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2026-04-23 08:58:36.141 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2026-04-23 08:58:36.141 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2026-04-23 08:58:36.252 [info] Finished searching for interpreters in posix paths locator: 628 milliseconds
+2026-04-23 08:58:36.252 [info] > /bin/python -I ~/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-04-23 08:58:36.349 [info] > /bin/python3 -I ~/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-04-23 08:58:36.350 [info] Environments refresh paths discovered (event): 738 milliseconds
+2026-04-23 08:58:36.350 [info] Environments refresh paths discovered: 739 milliseconds
+2026-04-23 08:58:36.858 [info] Environments refresh finished (event): 1246 milliseconds
+2026-04-23 08:58:36.883 [info] Environment refresh took 1271 milliseconds
+2026-04-23 08:58:36.952 [info] Python interpreter path: /bin/python
+2026-04-23 08:58:39.979 [info] Starting Jedi language server for default.
+2026-04-23 09:08:58.954 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /home/user/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py /home/user/requirements.txt
+2026-04-23 09:08:58.955 [info] > /bin/python ~/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py ~/requirements.txt
+2026-04-23 09:09:01.867 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /home/user/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py /home/user/requirements.txt
+2026-04-23 09:09:01.867 [info] > /bin/python ~/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py ~/requirements.txt
+2026-04-23 09:09:35.336 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /home/user/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py /home/user/requirements.txt
+2026-04-23 09:09:35.336 [info] > /bin/python ~/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py ~/requirements.txt
+2026-04-23 09:09:41.630 [info] Send text to terminal: # 1. تثبيت جميع المكتبات المطلوبة
+pip install -r requirements.txt
+
+# 2. تشغيل ملف تهيئة قاعدة البيانات (لإنشاء الخزائن الأربعة)
+python database.py
+
+# 3. تشغيل ملف رفع الـ PDF (تأكد من وجود ملف penal_code.pdf في نفس المجلد)
+# هذا الأمر سيبدأ بابتلاع الكتاب وتحويله إلى متجهات
+python upload_pdf.py
+
+# 4. بعد الانتهاء من الرفع، اختبر العقل الرقمي
+python search.py
+
+2026-04-23 09:09:59.034 [info] Send text to terminal: # تهيئة مساحة العمل كـ Git
+git init
+
+# إضافة جميع الملفات (سيتم استثناء الملفات الموجودة في .gitignore مثل .env)
+git add .
+
+# حفظ التغييرات
+git commit -m "النسخة الأولى من العقل الرقمي والمستشار القانوني"
+
+# تغيير اسم الفرع الرئيسي إلى main
+git branch -M main
+
+# ربط المستودع المحلي بالمستودع على GitHub (استبدل الرابط برابط مستودعك)
+git remote add origin https://github.com/YourUsername/YourRepoName.git
+
+# رفع الكود إلى الإنترنت
+git push -u origin main
+
+2026-04-23 09:22:29.307 [info] Send text to terminal: git remote remove origin
+
+2026-04-23 09:22:34.757 [info] Send text to terminal: git remote add origin https://github.com/mohammedyessan-netizen/legal-advisor-ai.git
+
+2026-04-23 09:22:39.013 [info] Send text to terminal: git push -u origin main
+
+2026-04-23 09:24:53.351 [info] Send text to terminal: git remote set-url origin git@github.com:mohammedyessan-netizen/legal-advisor-ai.git
+
+2026-04-23 09:24:58.367 [info] Send text to terminal: git push -u origin main
+
+2026-04-23 09:43:05.928 [info] Send text to terminal: git push -u origin main
+

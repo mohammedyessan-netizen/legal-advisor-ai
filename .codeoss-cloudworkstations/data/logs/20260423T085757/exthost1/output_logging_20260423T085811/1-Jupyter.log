@@ -1,0 +1,26 @@
+Code OSS for Cloud Workstations (1.109.5-cde, 80-w-mohammedyessan-moanmrk8.cluster-htaho7imcbe3sxy3tppwxrj65y.cloudworkstations.dev, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2026.4.0.
+Python Environment Extension Version: 1.20.1.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /home/user
+Temp Storage folder ~/.codeoss-cloudworkstations/data/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+No workspace folder opened.
+08:59:25.958 [error] Jupyter Extension (Error in Failed to check what servers were shutdown in Controller Watcher, method:checkExpiredServersInJupyterCollection): ReferenceError: Cannot access 'r' before initialization
+    at Object.provideJupyterServers (/opt/code-oss/extensions/googlecloudtools.cloudcode/dist/extension.js:14:14152808)
+    at Rf.checkExpiredServersInJupyterCollection (~/.codeoss-cloudworkstations/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:309:73878)
+    at Rf.r.value (~/.codeoss-cloudworkstations/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:60:11762)
+    at ~/.codeoss-cloudworkstations/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:309:73296
+    at Array.forEach (<anonymous>)
+    at Rf.<anonymous> (~/.codeoss-cloudworkstations/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:309:73280)
+    at I.C (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+    at I.D (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2398)
+    at I.fire (file:///opt/code-oss/out/vs/workbench/api/node/extensionHostProcess.js:27:2615)
+    at Ug.createJupyterServerCollection (~/.codeoss-cloudworkstations/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:181:32327)
+    at Tx (~/.codeoss-cloudworkstations/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:181:19745)
+    at Object.createJupyterServerCollection (~/.codeoss-cloudworkstations/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:181:35361)
+    at t.NotebookClient.setupKernelCollections (/opt/code-oss/extensions/googlecloudtools.cloudcode/dist/extension.js:14:14152686)
+    at t.NotebookClient.showCustomKernelPicker (/opt/code-oss/extensions/googlecloudtools.cloudcode/dist/extension.js:14:14151894)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at t.BigQueryPlugin.registerNotebookCommands (/opt/code-oss/extensions/googlecloudtools.cloudcode/dist/extension.js:14:14208920)

@@ -1,0 +1,6 @@
+{
+    "http.proxySupport": "off",
+    "cloudWorkstations.portsView.enabled": true,
+    "chat.disableAIFeatures": true,
+    "http.systemCertificatesNode": true
+}

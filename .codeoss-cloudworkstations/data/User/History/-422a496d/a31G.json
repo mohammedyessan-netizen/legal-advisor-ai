@@ -1,0 +1,7 @@
+{
+    "http.proxySupport": "off",
+    "cloudWorkstations.portsView.enabled": true,
+    "chat.disableAIFeatures": true,
+    "http.systemCertificatesNode": true,
+    "geminicodeassist.project": "rosy-entropy-bvzc3"
+}

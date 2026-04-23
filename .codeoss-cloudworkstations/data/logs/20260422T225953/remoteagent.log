@@ -1,0 +1,63 @@
+2026-04-22 22:59:53.883 [info] 
+
+
+
+
+2026-04-22 22:59:53.902 [info] Extension host agent started.
+2026-04-22 22:59:53.928 [info] Started initializing default profile extensions in extensions installation folder. file:///home/user/.codeoss-cloudworkstations/extensions
+2026-04-22 22:59:53.946 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/user/.codeoss-cloudworkstations/extensions
+2026-04-23 00:57:07.602 [info] [127.0.0.1][c450d6b7][ManagementConnection] New connection established.
+2026-04-23 00:57:08.129 [info] [127.0.0.1][0dec588c][ExtensionHostConnection] New connection established.
+2026-04-23 00:57:08.582 [info] [127.0.0.1][0dec588c][ExtensionHostConnection] <585> Launched Extension Host Process.
+2026-04-23 00:57:09.690 [info] [127.0.0.1][0dec588c][ExtensionHostConnection] <585> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-04-23 00:57:36.182 [info] Getting Manifest... ms-toolsai.jupyter
+2026-04-23 00:57:36.324 [info] Installing extension: ms-toolsai.jupyter {"context":{"extensionInstallSource":"command"},"isMachineScoped":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/user/.codeoss-cloudworkstations/extensions/extensions.json","external":"file:///home/user/.codeoss-cloudworkstations/extensions/extensions.json","path":"/home/user/.codeoss-cloudworkstations/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.109.5-cde","date":"2026-04-09T22:13:11.811Z"}}
+2026-04-23 00:57:36.609 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2026-04-23 00:57:36.659 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2026-04-23 00:57:36.702 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2026-04-23 00:57:36.747 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2026-04-23 00:57:36.792 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow {"context":{"extensionInstallSource":"command","dependecyOrPackExtensionInstall":true},"isMachineScoped":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/user/.codeoss-cloudworkstations/extensions/extensions.json","external":"file:///home/user/.codeoss-cloudworkstations/extensions/extensions.json","path":"/home/user/.codeoss-cloudworkstations/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.109.5-cde","date":"2026-04-09T22:13:11.811Z"},"installGivenVersion":false}
+2026-04-23 00:57:36.793 [info] Installing extension: ms-toolsai.jupyter-renderers {"context":{"extensionInstallSource":"command","dependecyOrPackExtensionInstall":true},"isMachineScoped":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/user/.codeoss-cloudworkstations/extensions/extensions.json","external":"file:///home/user/.codeoss-cloudworkstations/extensions/extensions.json","path":"/home/user/.codeoss-cloudworkstations/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.109.5-cde","date":"2026-04-09T22:13:11.811Z"},"installGivenVersion":false}
+2026-04-23 00:57:36.794 [info] Installing extension: ms-toolsai.jupyter-keymap {"context":{"extensionInstallSource":"command","dependecyOrPackExtensionInstall":true},"isMachineScoped":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/user/.codeoss-cloudworkstations/extensions/extensions.json","external":"file:///home/user/.codeoss-cloudworkstations/extensions/extensions.json","path":"/home/user/.codeoss-cloudworkstations/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.109.5-cde","date":"2026-04-09T22:13:11.811Z"},"installGivenVersion":false}
+2026-04-23 00:57:36.795 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags {"context":{"extensionInstallSource":"command","dependecyOrPackExtensionInstall":true},"isMachineScoped":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/user/.codeoss-cloudworkstations/extensions/extensions.json","external":"file:///home/user/.codeoss-cloudworkstations/extensions/extensions.json","path":"/home/user/.codeoss-cloudworkstations/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.109.5-cde","date":"2026-04-09T22:13:11.811Z"},"installGivenVersion":false}
+2026-04-23 00:57:37.289 [info] Extracted extension to file:///home/user/.codeoss-cloudworkstations/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal: ms-toolsai.jupyter-keymap
+2026-04-23 00:57:37.312 [info] Renamed to /home/user/.codeoss-cloudworkstations/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal
+2026-04-23 00:57:37.418 [info] Extracted extension to file:///home/user/.codeoss-cloudworkstations/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6-universal: ms-toolsai.vscode-jupyter-slideshow
+2026-04-23 00:57:37.449 [info] Renamed to /home/user/.codeoss-cloudworkstations/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6-universal
+2026-04-23 00:57:37.469 [info] Extracted extension to file:///home/user/.codeoss-cloudworkstations/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9-universal: ms-toolsai.vscode-jupyter-cell-tags
+2026-04-23 00:57:37.489 [info] Renamed to /home/user/.codeoss-cloudworkstations/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9-universal
+2026-04-23 00:57:37.987 [info] Extracted extension to file:///home/user/.codeoss-cloudworkstations/extensions/ms-toolsai.jupyter-renderers-1.3.0-universal: ms-toolsai.jupyter-renderers
+2026-04-23 00:57:38.007 [info] Renamed to /home/user/.codeoss-cloudworkstations/extensions/ms-toolsai.jupyter-renderers-1.3.0-universal
+2026-04-23 00:57:38.345 [info] Extracted extension to file:///home/user/.codeoss-cloudworkstations/extensions/ms-toolsai.jupyter-2025.9.1-universal: ms-toolsai.jupyter
+2026-04-23 00:57:38.388 [info] Renamed to /home/user/.codeoss-cloudworkstations/extensions/ms-toolsai.jupyter-2025.9.1-universal
+2026-04-23 00:57:38.433 [info] Extension installed successfully: ms-toolsai.jupyter-keymap file:///home/user/.codeoss-cloudworkstations/extensions/extensions.json
+2026-04-23 00:57:38.433 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow file:///home/user/.codeoss-cloudworkstations/extensions/extensions.json
+2026-04-23 00:57:38.433 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags file:///home/user/.codeoss-cloudworkstations/extensions/extensions.json
+2026-04-23 00:57:38.433 [info] Extension installed successfully: ms-toolsai.jupyter-renderers file:///home/user/.codeoss-cloudworkstations/extensions/extensions.json
+2026-04-23 00:57:38.433 [info] Extension installed successfully: ms-toolsai.jupyter file:///home/user/.codeoss-cloudworkstations/extensions/extensions.json
+2026-04-23 00:58:26.738 [info] [127.0.0.1][c450d6b7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-04-23 00:58:26.889 [info] [127.0.0.1][0dec588c][ExtensionHostConnection] <585> Extension Host Process exited with code: 0, signal: null.
+2026-04-23 00:58:28.668 [info] [127.0.0.1][fef62fe7][ManagementConnection] New connection established.
+2026-04-23 00:58:29.161 [info] [127.0.0.1][596031fc][ExtensionHostConnection] New connection established.
+2026-04-23 00:58:29.212 [info] [127.0.0.1][596031fc][ExtensionHostConnection] <616> Launched Extension Host Process.
+2026-04-23 00:58:30.137 [info] [127.0.0.1][596031fc][ExtensionHostConnection] <616> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-04-23 01:28:15.407 [info] Getting Manifest... ms-python.python
+2026-04-23 01:28:15.540 [info] Installing extension: ms-python.python {"isMachineScoped":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/user/.codeoss-cloudworkstations/extensions/extensions.json","external":"file:///home/user/.codeoss-cloudworkstations/extensions/extensions.json","path":"/home/user/.codeoss-cloudworkstations/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.109.5-cde","date":"2026-04-09T22:13:11.811Z"}}
+2026-04-23 01:28:16.638 [info] Getting Manifest... ms-python.vscode-python-envs
+2026-04-23 01:28:17.530 [info] Getting Manifest... ms-python.debugpy
+2026-04-23 01:28:17.586 [info] Installing extension: ms-python.vscode-python-envs {"isMachineScoped":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/user/.codeoss-cloudworkstations/extensions/extensions.json","external":"file:///home/user/.codeoss-cloudworkstations/extensions/extensions.json","path":"/home/user/.codeoss-cloudworkstations/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.109.5-cde","date":"2026-04-09T22:13:11.811Z"},"pinned":false,"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-04-23 01:28:17.586 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/user/.codeoss-cloudworkstations/extensions/extensions.json","external":"file:///home/user/.codeoss-cloudworkstations/extensions/extensions.json","path":"/home/user/.codeoss-cloudworkstations/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.109.5-cde","date":"2026-04-09T22:13:11.811Z"},"pinned":false,"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-04-23 01:28:18.261 [info] Extracted extension to file:///home/user/.codeoss-cloudworkstations/extensions/ms-python.vscode-python-envs-1.20.1-universal: ms-python.vscode-python-envs
+2026-04-23 01:28:18.292 [info] Renamed to /home/user/.codeoss-cloudworkstations/extensions/ms-python.vscode-python-envs-1.20.1-universal
+2026-04-23 01:28:19.440 [info] Extracted extension to file:///home/user/.codeoss-cloudworkstations/extensions/ms-python.debugpy-2025.18.0-linux-x64: ms-python.debugpy
+2026-04-23 01:28:19.477 [info] Renamed to /home/user/.codeoss-cloudworkstations/extensions/ms-python.debugpy-2025.18.0-linux-x64
+2026-04-23 01:28:21.460 [info] Extracted extension to file:///home/user/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal: ms-python.python
+2026-04-23 01:28:21.854 [info] Renamed to /home/user/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal
+2026-04-23 01:28:21.896 [info] Extension installed successfully: ms-python.vscode-python-envs file:///home/user/.codeoss-cloudworkstations/extensions/extensions.json
+2026-04-23 01:28:21.896 [info] Extension installed successfully: ms-python.debugpy file:///home/user/.codeoss-cloudworkstations/extensions/extensions.json
+2026-04-23 01:28:21.896 [info] Extension installed successfully: ms-python.python file:///home/user/.codeoss-cloudworkstations/extensions/extensions.json
+2026-04-23 03:21:41.313 [info] [127.0.0.1][596031fc][ExtensionHostConnection] The client has reconnected.
+2026-04-23 03:21:42.053 [info] [127.0.0.1][fef62fe7][ManagementConnection] The client has reconnected.
+2026-04-23 03:23:24.893 [info] [127.0.0.1][fef62fe7][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

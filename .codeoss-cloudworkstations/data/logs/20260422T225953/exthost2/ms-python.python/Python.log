@@ -1,0 +1,36 @@
+2026-04-23 01:28:26.054 [info] Starting Environment refresh
+2026-04-23 01:28:26.055 [info] Searching for interpreters in posix paths locator
+2026-04-23 01:28:26.069 [info] Searching for pyenv environments
+2026-04-23 01:28:26.069 [info] Searching for conda environments
+2026-04-23 01:28:26.069 [info] Searching for global virtual environments
+2026-04-23 01:28:26.069 [info] Searching for custom virtual environments
+2026-04-23 01:28:26.193 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-04-23 01:28:26.193 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-04-23 01:28:26.195 [info] pyenv is not installed
+2026-04-23 01:28:26.195 [info] Finished searching for pyenv environments: 139 milliseconds
+2026-04-23 01:28:26.196 [info] Finished searching for custom virtual envs: 138 milliseconds
+2026-04-23 01:28:26.207 [info] > conda info --json
+2026-04-23 01:28:26.210 [info] Finished searching for global virtual envs: 152 milliseconds
+2026-04-23 01:28:26.218 [info] Found: /bin/python --> /usr/bin/python3.12
+2026-04-23 01:28:26.219 [info] Found: /bin/python3 --> /bin/python3.12
+2026-04-23 01:28:26.219 [info] Found: /bin/python3.12 --> /bin/python3.12
+2026-04-23 01:28:26.259 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2026-04-23 01:28:26.260 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2026-04-23 01:28:26.261 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2026-04-23 01:28:26.332 [info] Finished searching for interpreters in posix paths locator: 271 milliseconds
+2026-04-23 01:28:26.332 [info] > /bin/python -I ~/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-04-23 01:28:26.375 [info] > /bin/python3 -I ~/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.codeoss-cloudworkstations/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-04-23 01:28:26.375 [info] Environments refresh paths discovered (event): 322 milliseconds
+2026-04-23 01:28:26.375 [info] Environments refresh paths discovered: 323 milliseconds
+2026-04-23 01:28:26.595 [info] Environments refresh finished (event): 542 milliseconds
+2026-04-23 01:28:26.612 [info] Environment refresh took 556 milliseconds
+2026-04-23 01:28:26.631 [info] Python interpreter path: /bin/python
+2026-04-23 01:28:29.358 [info] Starting Jedi language server for default.
+2026-04-23 03:15:30.906 [info] Send text to terminal: python upload_pdf.py
+
+2026-04-23 03:16:20.204 [info] Send text to terminal: source myenv/bin/activate
+
+2026-04-23 03:16:24.267 [info] Send text to terminal: python upload_pdf.py
+
+2026-04-23 03:17:31.878 [info] Send text to terminal: ls -l
+
